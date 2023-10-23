@@ -16,6 +16,9 @@ switch ($page) {
     case 'gallery':
         include 'gallery.php';
         break;
+    case 'pdf':
+        include 'pdf.php';
+        break;
     default:
         include 'home.php';
 }
